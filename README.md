@@ -6,7 +6,7 @@
 
 ---
 
-### DOCUMNET
+### DOCUMENT  
 C,C++  
 CS  
 Data Structure  
