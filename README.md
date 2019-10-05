@@ -4,7 +4,9 @@
 - 공부/서치한 내용들 잊어먹지 않기가 주 목적!
 - 저장용. 미완성 메모도 있음
 
-## DOCUMENT
+---
+
+### DOCUMENT
 - C,C++  
 - CS  
 - Data Structure  
