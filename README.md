@@ -15,6 +15,7 @@
 - JavaScript  
 - PHP  
 - Python  
+- WEB  
 - Etc  
 
 ---
