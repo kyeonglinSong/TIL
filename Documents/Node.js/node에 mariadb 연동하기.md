@@ -26,4 +26,14 @@ $ mysql -u 아이디 -p 스키마명
 
 
 
-- sql 문법 대충 정리
+
+
+### 2.  Sql 문법 대충
+
+- insert
+
+```sql
+insert into portfolio.users
+values ('kl', 'kl', 'kl@gmail.com', '03-22-1997', '010-8749-3597', '어딘가')
+```
+
