@@ -303,3 +303,37 @@ const {a, b} = wm.get(this);
 json으로 응답받음 -> js object로 변환 -> 데이터처리 조작 -> DOM에 추가
 
 Data + HTML 문자열의 결합이 필요하기 때문에
+
+
+
+`` 안에 변수값은 ${}안에 집어넣어서 사용.
+
+
+
+#### 9-2. Tagged Template literals
+
+function에서 처리를 한 후 결과값을 반환받아서 사용
+
+
+
+---
+
+
+
+### 10. function
+
+#### 10-1. Arrow function의 활용
+
+```javascript
+let newArr = [1,2,3,4,5].map(function(value){
+  return value*2;
+});
+
+// arrow function 활용
+let newArr = [1,2,3,4,5].map( (v) => (v*2));
+```
+
+
+
+
+
