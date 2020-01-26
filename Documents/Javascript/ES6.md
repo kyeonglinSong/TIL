@@ -231,3 +231,75 @@ let {name:myName, age:myAge} = obj; //새 이름을 할당하여 사용할 수 �
 
 #### 5-4 Destructuring 활용 Eevent 객체 활용
 
+
+
+
+
+---
+
+
+
+### 6. Set & WeakSet
+
+#### 6-1. Set
+
+`let mySet = new Set();`
+
+중복없이 동일한 값을 저장.
+
+이미 존재하는 값인지 체크할 때 사용하기 좋음.
+
+- `has()` 로 체크할 수 있음
+
+
+
+#### 6-2. WeakSet
+
+참조를 가지고 있는 객체만 저장이 가능하다.
+
+객체형태를 중복 없이 저장하고싶음.
+
+`let weekset = new WeakSet()`
+
+
+
+---
+
+
+
+### 7. Map & WeekMap
+
+Key / value  구조
+
+key인 function의 카운트를 세고싶을 때.
+
+
+
+WeekMap 활용
+
+-  Private 변수 활용
+
+```javascript
+const wm = new WeakMap();
+
+function func(a, b){
+  wm.set(this, {a,b});
+}
+
+// 사용할 때
+const {a, b} = wm.get(this);
+```
+
+
+
+----
+
+
+
+### 9. Template
+
+#### 9-1. template 처리
+
+json으로 응답받음 -> js object로 변환 -> 데이터처리 조작 -> DOM에 추가
+
+Data + HTML 문자열의 결합이 필요하기 때문에
