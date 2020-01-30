@@ -20,3 +20,4 @@
 
 @GetMapping : http get요청을 받을 수 있는 API를 만들어준다
 
+@RequestParam : 외부에서 api로 넘긴 파라미터를 가져오는 어노테이션ㄹ
