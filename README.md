@@ -8,9 +8,7 @@
 ---
 
 
-###☁️Rule
-
----
+## Rule
 
 #### study
 
@@ -20,19 +18,19 @@
 
   
 
-####docs
+#### docs
 
 - 개념 + 정의 정리
 - 나중에 찾아보기 위해서 더 구체적으로 문서화하기
 
 
 
-####Issue 
+#### Issue 
 
 - 이슈 + 해결 모음
 ---
 
-### DOCUMENT
+## DOCUMENT
 - 용어  
 - Blockchain
 - C,C++  
