@@ -1,14 +1,12 @@
-# TIL
-- ⭐Today I Learn⭐
-- 공부한 내용들을 Markdown 문서로 작성
-- 공부/서치한 내용들 잊어먹지 않기가 주 목적!
-- 저장용
+# TIL - ⭐Today I Learn⭐
+- 공부한 내용을 Markdown 문서로 작성
+- 공부/서치한 내용들 잊어먹지 않기가 주 목적
 
   
 ---
 
 
-## Rule
+## ⭐Rule
 
 #### study
 
@@ -30,7 +28,7 @@
 - 이슈 + 해결 모음
 ---
 
-## DOCUMENT
+## ⭐DOCUMENT
 - 용어  
 - Blockchain
 - C,C++  
