@@ -13,3 +13,16 @@ stack.push("something")
 while stack:
 ```
 
+
+
+### 2. queue
+
+`import queue, q = queue.Queue()`
+
+라는 모듈이 있지만, 그냥 list를 큐처럼 사용할 수 있다.
+
+```python
+q.pop(0) #맨 먼저 들어온 요소 삭제
+q.append() #뒤에 요소 삽입
+```
+
