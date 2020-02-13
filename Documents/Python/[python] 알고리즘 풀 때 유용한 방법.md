@@ -15,3 +15,10 @@ list(string) #[a,b,c,d,e]
 list(set(list1)-set(list2))
 ```
 
+
+
+### 3. n만큼 스트링 채우기
+
+- str.rjust(n, 'char')
+
+  
