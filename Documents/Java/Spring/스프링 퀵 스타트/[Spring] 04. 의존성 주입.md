@@ -23,9 +23,9 @@
 
 
 
-Depedency Injection은 객체 사이의 의존관계를 설정파일을 바탕으로 컨테이너가 자동으로 처리해준다. 따라서 설정 파일만 수정하면 된다.
+**Depedency Injection**은 객체 사이의 의존관계를 설정파일을 바탕으로 컨테이너가 자동으로 처리해준다. 따라서 설정 파일만 수정하면 된다.
 
-Dependency Injection은 다시 Setter Injection과 Construction Injection으로 나뉜다.
+Dependency Injection은 다시 **Setter Injection**과 **Construction Injection**으로 나뉜다.
 
 
 
@@ -106,11 +106,50 @@ Setter 메서드를 호출하여 의존성 주입을 처리하는 방법.
 
 
 
+1. Setter 메소드 생성
+
+2. applicationContext.xml 수정
+
+   ![image-20200222153459472](/Users/blossommilktea/Library/Application Support/typora-user-images/image-20200222153459472.png)
+
+   ​																applicationContext.xml
+
+   세터 인젝션에서는 <property>  엘리먼트를 사용한다.
+
+
+
+
+
+#### p 네임스페이스 사용하기
+
+세터 인젝션에서 p 네임스페이스를 이용하기
+
+
+
+1. 먼저 applicationContext.xml 에 `xmlns:p="http://www.springframework.org/schema/p"` 를 추가해준다.
+
+![image-20200222154129057](/Users/blossommilktea/Library/Application Support/typora-user-images/image-20200222154129057.png)
+
+
+
+2. 기존 <u>property 엘리먼트 대신</u> bean 엘리먼트에 p 네임스페이스를 추가해준다.
+
+![image-20200222154331323](/Users/blossommilktea/Library/Application Support/typora-user-images/image-20200222154331323.png)
+
 
 
 
 
 ### 4. Collection 객체 설정
 
+배열이나 리스트같은 컬렉션 객체를 이용하여 데이터 집합을 사용하는 경우가 있다. 이때 컬렉션 객체를 의존성 주입하면 된다. 
+
+스프링에서는 커렉션 매핑과 관련된 엘리먼트를 지원한다.
 
 
+
+<List> <Set> <Map> <props> 등등..
+
+
+
+하지만 거의 <List> 만 사용함.
