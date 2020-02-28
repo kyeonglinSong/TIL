@@ -2,9 +2,13 @@
 
 # [spring] 03. Model2  아키텍쳐로 게시판 개발
 
+
+
 ### 1. Model 2 아키텍쳐 구조
 
 모델1은 화면 디자인과 자바 로직이 통합되어 있어 유지보수가 어렵다. -> model2 **MVC** 아키텍쳐 등장!
+
+
 
 **MVC 아키텍쳐** 
 
@@ -18,8 +22,6 @@
 ![IMG_0989E4DB6DD9-1](/Users/blossommilktea/Downloads/IMG_0989E4DB6DD9-1.jpeg)
 
 ​																				MVC (Model 2) 아키텍처
-
-
 
 
 
@@ -39,6 +41,8 @@
 
 - url-patern의 `*.do`는 do로 시작하는 모든 요청을 이 서블릿 클래스가 처리한다는 의미이다.
 
+  
+
 #### (2) controller 서블릿 구현
 
 - doGet, doPost 메서드에서는 각각 GET, POST 요청을 받아서 process 메서드로 넘긴다.
@@ -48,3 +52,19 @@
 
 
 이제 기존 JSP 파일에서 처리 로직을 추출하여 서블릿 클래스에 추가하면 된다!
+
+
+
+#### (3) 기능 구현하기
+
+- **.jsp** 파일에서 action 속성값을 ***.do** 로 변경한다.
+- **_proc.js** 파일의 내용을 서블릭 클래스에 추가한다.
+
+
+
+####최종 아키텍쳐
+
+- Model : VO, DAO 파일들
+- View : webapp/_.jsp 파일들
+- Controller : DispatcherServlet
+
