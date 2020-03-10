@@ -10,7 +10,7 @@
 
 
 ## 🍑작성 Rule
-#### commit
+#### 📌 commit
 `[YYMMDD] 주제 `
   
 #### 📌study
