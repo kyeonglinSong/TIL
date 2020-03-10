@@ -9,7 +9,7 @@
 ---
 
 
-## 🍑Commit Rule
+## 🍑작성 Rule
 
 #### 📌study
 
