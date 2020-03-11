@@ -8,6 +8,14 @@
 
 - dependency
 
+  - swagger
+
+  - lombok
+
+  - mybatis
+
+    
+
   
 
   
