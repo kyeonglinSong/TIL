@@ -44,3 +44,7 @@
 
   - dto : request 데이터를 받음
   - controller : api요청을 받는 클래스
+
+
+
+- config 등등도 둘 수 있음..!
