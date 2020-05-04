@@ -14,7 +14,7 @@ $ ./gradlew -v
 
 ```bash
 $ ./gradlew wrapper --gradle-version x.x.x
-
+$ ./gradlew wrapper --gradle-version 4.10.2
 ```
 
 
