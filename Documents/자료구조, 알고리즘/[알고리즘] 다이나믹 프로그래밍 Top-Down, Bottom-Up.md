@@ -8,9 +8,16 @@
 - DFS 형태
 
 - 아래에서부터 쌓아올리는 형태
+- 함수를 void형으로 만들고 바깥에 result 변수를 두면 편하다.
 
 ```c++
-dp(next, term+next_term);
+int result = 0; // OR MAX
+
+void dp(something)
+{
+	dp(next, term+next_term);  
+}
+
 ```
 
 
@@ -18,8 +25,17 @@ dp(next, term+next_term);
 ### Bottom-Up
 
 - 아래에서부터 쌓아올리는 형태
+- (중첩) for문과 조건문을 이용한다.
+- 함수를 int형으로 만들고 for문이 끝나면 마지막 값(혹은 최대최소값)을 출력한다.
 
 ```c++
-dp[i] = dp[i-1] + dp[i+1];
+int dp(something)
+{
+	for()
+    dp[i] = dp[i-1] + dp[i+1];
+  
+  return max // or something 
+}
+
 ```
 
